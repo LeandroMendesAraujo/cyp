@@ -2,13 +2,13 @@
 
 ## Visão Geral
 
-Este projeto automatiz os principais fluxos funcionais do site [SauceDemo](https://www.saucedemo.com/) usando **BDD (Behavior Driven Development)** com **Cypress** e **Cucumber**. Os testes são escritos em **linguagem Gherkin** com nomes e descrições personalizados para melhor clareza, organização e manutenção.
+Este projeto automatiz os principais fluxos funcionais do site [SauceDemo](https://www.saucedemo.com/) usando **BDD** com **Cypress** e **Cucumber**.
 
 ---
 
 ## Funcionalidades Automatizadas
 
-### 1. Autenticação do Usuário
+### 1. Login
 
 | Cenário                      | Descrição                                                                 |
 |-----------------------------|---------------------------------------------------------------------------|
@@ -18,7 +18,7 @@ Este projeto automatiz os principais fluxos funcionais do site [SauceDemo](https
 
 ---
 
-### 2. Catálogo de Produtos
+### 2. Catálogo
 
 | Cenário                       | Descrição                                                                |
 |------------------------------|--------------------------------------------------------------------------|
@@ -98,16 +98,9 @@ cypress/
     └── step_definitions/
         ├── global.js
 ```
-
+Testes Success
+![alt text](Screenshot_13.png)
 ---
 
-## Tecnologias Utilizadas
-
-- [Cypress](https://www.cypress.io/)
-- [Cucumber + Gherkin](https://github.com/badeball/cypress-cucumber-preprocessor)
-- JavaScript (ES6+)
-- Node.js
-
----
 
 
