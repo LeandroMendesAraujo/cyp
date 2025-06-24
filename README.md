@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este projeto automatiz os principais fluxos funcionais do site [SauceDemo](https://www.saucedemo.com/) usando **BDD** com **Cypress** e **Cucumber**.
+Este projeto automatiz os principais fluxos funcionais do site [SauceDemo](https://www.saucedemo.com/v1/) usando **BDD** com **Cypress** e **Cucumber**.
 
 ---
 
